@@ -1,0 +1,13 @@
+// https://aka.ms/devcontainer.json
+{
+	"name": "app-frontend",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "nodejs",
+	"workspaceFolder": "/var/www/html",
+	"settings": {},
+	"extensions": [
+	],
+	"remoteUser": "node",
+}
